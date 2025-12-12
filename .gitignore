@@ -1,0 +1,27 @@
+# Переменные окружения
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Данные (опционально - можно закомментировать для сохранения)
+# data.json
+
+# Логи
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
