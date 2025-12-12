@@ -1,0 +1,12 @@
+# Render.com Blueprint для автоматического развёртывания
+services:
+  - type: worker
+    name: telegram-moderator-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_CHANNEL_ID
+        sync: false

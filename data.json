@@ -1,0 +1,12 @@
+{
+  "chats": {},
+  "users": {},
+  "pending_captcha": {},
+  "scheduled_messages": [],
+  "warnings": {},
+  "user_notes": {},
+  "blacklist": [],
+  "whitelist": [],
+  "flood_tracker": {},
+  "verified_users": {}
+}
