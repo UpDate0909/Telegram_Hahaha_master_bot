@@ -1,0 +1,16 @@
+# Исключаем весь код
+*.py
+*.json
+*.bat
+*.session
+
+# Папки
+__pycache__/
+cleanup_scripts/
+docs/
+.kiro/
+.vscode/
+
+# Переменные окружения
+.env
+.env.example
